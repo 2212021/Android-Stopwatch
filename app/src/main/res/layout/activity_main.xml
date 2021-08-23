@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/padding_top_bottom"
+        android:paddingBottom="@dimen/padding_top_bottom"
+        android:paddingStart="@dimen/padding_left_right"
+        android:paddingEnd="@dimen/padding_left_right"
+        android:paddingLeft="@dimen/padding_left_right"
+        android:paddingRight="@dimen/padding_left_right"
+        tools:context=".MainActivity">
+        <RelativeLayout
+                android:id="@+id/timebox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/bluegray">
+                <TextView
+                        android:id="@+id/timetext"
+                        android:textSize="@dimen/time_text_size"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/time_box_topmargin"
+                        android:layout_marginBottom="@dimen/time_box_bottommargin"
+                        android:text="@string/zero_time"
+                        android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:id="@+id/controlsbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+                <Button
+                        android:id="@+id/button"
+                        android:text="@string/start"
+                        android:background="@color/bluegray"
+                        android:textSize="@dimen/button_text_size"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="@dimen/button_topmargin"
+                        android:paddingBottom="@dimen/button_bottommargin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+</RelativeLayout>

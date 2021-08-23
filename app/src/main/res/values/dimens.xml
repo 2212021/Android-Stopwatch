@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_top_bottom">12dp</dimen>
+    <dimen name="padding_left_right">10dp</dimen>
+    <dimen name="time_text_size">60sp</dimen>
+    <dimen name="time_box_topmargin">50dp</dimen>
+    <dimen name="time_box_bottommargin">55dp</dimen>
+    <dimen name="button_text_size">35sp</dimen>
+    <dimen name="button_topmargin">20dp</dimen>
+    <dimen name="button_bottommargin">25dp</dimen>
+</resources>
